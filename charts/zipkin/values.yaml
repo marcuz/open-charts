@@ -18,7 +18,7 @@ collector:
 
   image:
     repository: openzipkin/zipkin
-    tag: # defaults to Chart.AppVersion unless this is set
+    tag:  # defaults to Chart.AppVersion unless this is set
     pullPolicy: IfNotPresent
 
   serviceAccount:
@@ -77,7 +77,7 @@ ui:
 
   image:
     repository: openzipkin/zipkin-ui
-    tag: # defaults to Chart.AppVersion unless this is set
+    tag:  # defaults to Chart.AppVersion unless this is set
     pullPolicy: IfNotPresent
   # https://github.com/openzipkin/zipkin/tree/master/zipkin-server#configuration
   env: []
