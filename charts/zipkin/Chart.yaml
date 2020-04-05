@@ -20,6 +20,5 @@ sources:
   - https://github.com/carlosjgp/zipkin-chart
   - https://github.com/carlosjgp/open-charts
 maintainers:
-  - name: Carlos Juan Gómez Peñalver
+  - name: carlosjgp
     email: carlosjuangp@gmail.com
-    url: https://github.com/carlosjgp
