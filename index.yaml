@@ -1,5 +1,30 @@
 apiVersion: v1
 entries:
+  node-problem-detector:
+  - apiVersion: v2
+    appVersion: v0.8.1
+    created: "2020-11-21T11:43:12.677114186Z"
+    description: |-
+      node-problem-detector aims to make various node problems visible to the
+      upstream layers in the cluster management stack. It is a daemon that runs
+      on each node, detects node problems and reports them to apiserver.
+      node-problem-detector can either run as a DaemonSet or run standalone.
+      Now it is running as a Kubernetes Addon enabled by default in the GCE cluster.
+    digest: e29a4550b22200555f134f8c874e07c118f961868420601eb09751c54d5a437e
+    home: https://github.com/kubernetes/node-problem-detector
+    keywords:
+    - system
+    - node
+    maintainers:
+    - email: carlosjuangp@gmail.com
+      name: carlosjgp
+    name: node-problem-detector
+    sources:
+    - https://github.com/kubernetes/node-problem-detector
+    type: application
+    urls:
+    - https://github.com/carlosjgp/open-charts/releases/download/node-problem-detector-0.1.0/node-problem-detector-0.1.0.tgz
+    version: 0.1.0
   zipkin:
   - apiVersion: v2
     appVersion: 2.21.0
