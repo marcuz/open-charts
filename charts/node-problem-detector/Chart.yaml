@@ -1,0 +1,20 @@
+apiVersion: v2
+name: node-problem-detector
+type: application
+version: 0.1.0
+appVersion: v0.8.1
+home: https://github.com/kubernetes/node-problem-detector
+description: |-
+  node-problem-detector aims to make various node problems visible to the
+  upstream layers in the cluster management stack. It is a daemon that runs
+  on each node, detects node problems and reports them to apiserver.
+  node-problem-detector can either run as a DaemonSet or run standalone.
+  Now it is running as a Kubernetes Addon enabled by default in the GCE cluster.
+keywords:
+  - system
+  - node
+sources:
+  - https://github.com/kubernetes/node-problem-detector
+maintainers:
+  - name: carlosjgp
+    email: carlosjuangp@gmail.com
