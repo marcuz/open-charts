@@ -61,6 +61,8 @@ collector:
 
   affinity: {}
 
+  env: []
+
 ui:
   replicaCount: 1
   hpa:
@@ -154,3 +156,5 @@ dependencies:
   tolerations: []
 
   affinity: {}
+
+  env: []

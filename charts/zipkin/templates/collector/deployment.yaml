@@ -26,8 +26,8 @@ spec:
           env:
             - name: QUERY_PORT
               value: {{ .Values.collector.service.port | quote }}
-            {{- range .Values.collector.env }}
-            - {{ . | toYaml }}
+            {{- with .Values.collector.env }}
+              {{- toYaml . | nindent 12 }}
             {{- end }}
           ports:
             - name: http
