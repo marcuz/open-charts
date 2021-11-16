@@ -7,7 +7,7 @@ description: |-
   data needed to troubleshoot latency problems in service architectures.
   Features include both the collection and lookup of this data.
 icon: https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png
-version: 0.2.1
+version: 0.2.2
 appVersion: 2.23.4
 keywords:
   - tracing
